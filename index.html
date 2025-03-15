@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sur Occidente Colombiano</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Cabecera con Flexbox */
+    header {
+      display: flex;
+      justify-content: space-between; /* Espacio entre el título y el menú */
+      align-items: center; /* Alinea verticalmente */
+      padding: 20px;
+      background-color: #333;
+      color: white;
+    }
+
+    /* Estilo del título de la cabecera */
+    .titulo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    /* Estilo para el menú de navegación */
+    nav {
+      display: flex;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 14px 20px;
+      text-align: center;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    /* Estilos generales para el contenido */
+    .intro {
+      padding: 20px;
+      background-color: white;
+      margin: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .contenido {
+      display: flex; /* Coloca el texto y la imagen en una misma fila */
+      justify-content: center; /* Centra los elementos en el contenedor */
+      align-items: center; /* Alinea el contenido verticalmente */
+      gap: 20px; /* Espacio entre el texto y la imagen */
+    }
+
+    .texto {
+      text-align: center; /* Centra el texto */
+      max-width: 600px; /* Limita el ancho del texto para que no ocupe todo el espacio */
+    }
+
+    .imagen img {
+      width: 300px; /* Ajusta el tamaño de la imagen */
+      height: auto; /* Mantiene la proporción de la imagen */
+      border-radius: 8px; /* Opcional: agrega bordes redondeados a la imagen */
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 16px;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cabecera -->
+  <header>
+    <div class="titulo">Sur Occidente Colombiano</div>
+    <nav>
+      <a href="../index.html">Inicio</a>
+      <a href="../valle/valle.html">Valle del Cauca</a>
+      <a href="../nariño/nariño.html">Nariño</a>
+      <a href="../cauca/cauca.html">Cauca</a>
+    </nav>
+  </header>
+
+  <!-- Contenido principal -->
+  <section class="intro">
+    <div class="contenido">
+      <div class="texto">
+        <h2>Sur Occidente Colombiano</h2>
+        <p>Esta región se ha caracterizado por la conjugación del accionar de los diferentes actores armados que hacen presencia y se disputan los territorios (agentes estatales, paramilitares e insurgentes), motivados por intereses geoestratégicos sobre el Puerto de Buenaventura, la salida hacia al pacífico y hacia el Ecuador. También hacia las riquezas naturales, minerales y los yacimientos de hidrocarburos que posee la zona.</p>
+        <p>La implementación de megaproyectos como parte de las apuestas por el desarrollo económico del país.</p>
+      </div>
+      <div class="imagen">
+        <img src="img/SUROCCIDENTE.jpg" alt="Imagen descriptiva" />
+      </div>
+    </div>
+  </section>
+  <footer>
+    neider fernando Ascuntar
+  </footer>
+
+</body>
+</html>
